@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "email": "admin@admin.com",
+      "password": "admin",
+      "id": 1
+    },
+    {
+      "username": "ujang",
+      "email": "ujang@email.com",
+      "password": "ujang",
+      "id": 2
+    },
+    {
+      "username": "said",
+      "email": "said@said.com",
+      "password": "11223344",
+      "id": 3
+    },
+    {
+      "username": "admin2",
+      "password": "",
+      "id": 4
+    },
+    {
+      "username": "msaid_a",
+      "email": "muhammadsaidarrafi@gmail.com",
+      "password": "Indonesiaku!",
+      "id": 5
+    },
+    {
+      "username": "admin3",
+      "email": "admin3@gmail.com",
+      "password": "admin3",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "nama": "Kaos dua",
+      "deskripsi": "lorem ipsum dolor sit amet",
+      "harga": 50000,
+      "linkGambar": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/20/5837258/5837258_69d168f6-d875-4bf4-9f05-14b3b16a0b1f_2048_2048.jpg",
+      "id": 7
+    },
+    {
+      "nama": "Kaos tiga",
+      "deskripsi": "lorem ipsum dolor sit amet",
+      "harga": 70000,
+      "linkGambar": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/20/5837258/5837258_69d168f6-d875-4bf4-9f05-14b3b16a0b1f_2048_2048.jpg",
+      "id": 8
+    },
+    {
+      "nama": "Kaos Empat",
+      "deskripsi": "lorem ipsum dolor sit amet",
+      "harga": 130000,
+      "linkGambar": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/20/5837258/5837258_69d168f6-d875-4bf4-9f05-14b3b16a0b1f_2048_2048.jpg",
+      "id": 9
+    },
+    {
+      "nama": "Kaos Satu",
+      "deskripsi": "lorem ipsum dolor sit amet\t",
+      "harga": "90000",
+      "linkGambar": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/20/5837258/5837258_69d168f6-d875-4bf4-9f05-14b3b16a0b1f_2048_2048.jpg",
+      "id": 10
+    }
+  ],
+  "carts": [
+    {
+      "id_produk": 8,
+      "nama_produk": "Kaos tiga",
+      "deskripsi": "lorem ipsum dolor sit amet",
+      "id_user": 3,
+      "username": "said",
+      "harga": 70000,
+      "qty": 1,
+      "gambar": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/20/5837258/5837258_69d168f6-d875-4bf4-9f05-14b3b16a0b1f_2048_2048.jpg",
+      "id": 4
+    },
+    {
+      "id_produk": 9,
+      "nama_produk": "Kaos Empat",
+      "deskripsi": "lorem ipsum dolor sit amet",
+      "id_user": 6,
+      "username": "admin3",
+      "harga": 130000,
+      "qty": 1,
+      "gambar": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/20/5837258/5837258_69d168f6-d875-4bf4-9f05-14b3b16a0b1f_2048_2048.jpg",
+      "id": 6
+    },
+    {
+      "id_produk": 7,
+      "nama_produk": "Kaos dua",
+      "deskripsi": "lorem ipsum dolor sit amet",
+      "id_user": 1,
+      "username": "admin",
+      "harga": 50000,
+      "qty": 2,
+      "gambar": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/20/5837258/5837258_69d168f6-d875-4bf4-9f05-14b3b16a0b1f_2048_2048.jpg",
+      "id": 7
+    }
+  ],
+  "wishlist": [
+    {
+      "id_produk": 7,
+      "nama_produk": "Kaos dua",
+      "deskripsi": "lorem ipsum dolor sit amet",
+      "id_user": 6,
+      "username": "admin3",
+      "harga": 50000,
+      "gambar": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/20/5837258/5837258_69d168f6-d875-4bf4-9f05-14b3b16a0b1f_2048_2048.jpg",
+      "id": 1
+    },
+    {
+      "id_produk": 7,
+      "nama_produk": "Kaos dua",
+      "deskripsi": "lorem ipsum dolor sit amet",
+      "id_user": 1,
+      "username": "admin",
+      "harga": 50000,
+      "gambar": "https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/20/5837258/5837258_69d168f6-d875-4bf4-9f05-14b3b16a0b1f_2048_2048.jpg",
+      "id": 2
+    }
+  ]
+}
