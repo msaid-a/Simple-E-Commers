@@ -7,27 +7,10 @@
       "id": 1
     },
     {
-      "username": "ujang",
-      "email": "ujang@email.com",
-      "password": "ujang",
-      "id": 2
-    },
-    {
       "username": "said",
       "email": "said@said.com",
       "password": "11223344",
       "id": 3
-    },
-    {
-      "username": "admin2",
-      "password": "",
-      "id": 4
-    },
-    {
-      "username": "msaid_a",
-      "email": "muhammadsaidarrafi@gmail.com",
-      "password": "Indonesiaku!",
-      "id": 5
     },
     {
       "username": "admin3",
