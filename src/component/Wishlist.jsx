@@ -35,13 +35,11 @@ class Wishlist extends Component {
 // render Data
     renderCarts = () =>{
         return this.state.wishlist.map(produk => {
-            let {id,nama_produk,deskripsi,harga,gambar,id_produk} = produk
-            let hargaRp = Intl.NumberFormat().format(harga).replace(/,/g, '.')
+            let {id,nama_produk,deskripsi,gambar,id_produk} = produk
             return <tr>
                 <td>{id}</td>
                 <td>{nama_produk}</td>
                 <td>{deskripsi}</td>
-                <td>Rp. {hargaRp}</td>
                 <td>
                     <img src={gambar} alt="" style={{width: 60}}/>
                 </td>
@@ -95,7 +93,6 @@ onDeleteClick = (id)=>{
                             <th>ID</th>
                             <th>NAMA</th>
                             <th>Deskripsi</th>
-                            <th>Harga</th>
                             <th>Gambar</th>
                             <th>Action</th>
                         </tr>
