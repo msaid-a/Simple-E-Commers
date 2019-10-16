@@ -1,5 +1,11 @@
 ### Kalau ada yang kurang mohon di koreksi Terimakasih 
 
+
+### `json-server -p 2020 src/fakeApi.db.json`
+
+Runs the app fake API 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
